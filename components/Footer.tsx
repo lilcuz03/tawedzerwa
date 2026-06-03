@@ -254,8 +254,14 @@ export default function Footer() {
             © {currentYear} Tawedzerwa Construction. All rights reserved.
           </span>
           <span className="flex items-center gap-1 text-white/30">
-            Built with <Link href={"https://tafadzwa.site/" } className="text-amber-300">Tafadzwa</Link> in
-            KwaZulu-Natal, South Africa
+            Developed by{" "}
+            <Link
+              href={"https://tafadzwa.site/"}
+              className="text-amber-300"
+            >
+              Tafadzwa
+            </Link>{" "}
+            in KwaZulu-Natal, South Africa
           </span>
           <div className="flex items-center gap-4">
             <a
